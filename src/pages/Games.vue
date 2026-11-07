@@ -180,11 +180,16 @@ onUnmounted(() => {
   min-height: 0;
   min-width: 0;
   overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
   box-sizing: border-box;
   padding: 20px clamp(12px, 3vw, 32px) 32px;
   animation: fadeIn 200ms ease-out both;
 }
 
+.gamesPage::-webkit-scrollbar {
+  display: none;
+}
 
 .gamesError {
   color: var(--sg-text-muted);
