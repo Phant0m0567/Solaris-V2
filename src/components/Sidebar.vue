@@ -16,7 +16,7 @@ import { RouterLink } from 'vue-router';
 <template>
   <nav id="sg-rail" aria-label="Apps">
     <div class="sg-rail-group">
-      <img class="sg-rail-logo" src="/assets/images/logo.png" alt="Singularity" draggable="false"/>
+      <img class="sg-rail-logo" src="/assets/images/logo.png" alt="Solaris" draggable="false"/>
 
       <RouterLink to="/" class="sg-rail-btn" exact-active-class="active" aria-label="Home">
         <House />
@@ -26,9 +26,9 @@ import { RouterLink } from 'vue-router';
         <GamepadDirectional />
       </RouterLink>
 
-      <RouterLink to="/browser" class="sg-rail-btn" exact-active-class="active" aria-label="Browser">
+      <button type="button" class="sg-rail-btn" aria-label="Browser">
         <Globe />
-      </RouterLink>
+      </button>
       <button type="button" class="sg-rail-btn" aria-label="Watch">
          <Play />
       </button>
