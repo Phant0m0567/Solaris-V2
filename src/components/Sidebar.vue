@@ -97,6 +97,11 @@ import { RouterLink } from 'vue-router';
   object-position: center;
   border-radius: 8px;
   margin-bottom: 8px;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -ms-user-drag: none;
+  user-drag: none;
   user-select: none;
   pointer-events: none;
 }
