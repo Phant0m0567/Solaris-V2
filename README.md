@@ -8,4 +8,5 @@
   <br>
   <br>
   <a href="https://render.com/deploy?repo=https://github.com/phant0m0567/solaris-v2"><img height="30px" src="https://img.shields.io/badge/render-4f65f1.svg?style=for-the-badge&logo=render&logoColor=46e3b7"></a>
+  <a href="https://deploy.workers.cloudflare.com/?url=https://github.com/phant0m0567/solaris-v2"><img height="30px" src="https://deploy.workers.cloudflare.com/button"></a>
 </div>
