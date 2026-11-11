@@ -1,3 +1,13 @@
 # Solaris V2
 
-cutting edge modern web proxy
+<div align="center">
+  <img src="https://socialify.git.ci/phant0m0567/solaris-v2/image?description=1&forks=1&issues=1&language=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2FPhant0m0567%2FSolaris-V2%2Frefs%2Fheads%2Fmain%2Fpublic%2Fassets%2Fimages%2Flogo.png&name=1&owner=1&pattern=Plus&pulls=1&stargazers=1&theme=Dark" alt="solaris-v2" width="640" height="320"
+    />
+</div>
+<div align="center">
+  <h2>How to Deploy Solaris</h2>
+  To get started, press one of the buttons below!
+  <br>
+  <br>
+  <a href="https://render.com/deploy?repo=https://github.com/phant0m0567/solaris-v2"><img height="30px" src="https://img.shields.io/badge/render-4f65f1.svg?style=for-the-badge&logo=render&logoColor=46e3b7"></a>
+</div>
