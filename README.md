@@ -16,6 +16,7 @@
   <a href="https://render.com/deploy?repo=https://github.com/phant0m0567/solaris-v2"><img height="30px" src="https://img.shields.io/badge/render-4f65f1.svg?style=for-the-badge&logo=render&logoColor=46e3b7"></a>
 <a href="https://dash.cloudflare.com/?to=/:account/pages/new/provider/github"><img height="30px" src="https://img.shields.io/badge/cloudflare-f38020.svg?style=for-the-badge&logo=cloudflare&logoColor=white"></a>
 <a href="https://railway.com/deploy/t2iuID?referralCode=6CdkQ9&utm_medium=integration&utm_source=template&utm_campaign=generic"><img height="30px" src="https://img.shields.io/badge/Railway-%234f0599.svg?style=for-the-badge&logo=railway&logoColor=white"></a>
+  <a href="https://app.netlify.com/start/deploy?repository=https://github.com/Phant0m0567/solaris-v2"><img height="30px" src="https://img.shields.io/badge/netlify-00C7B7.svg?style=for-the-badge&logo=netlify&logoColor=white"></a>
 </div>
 
 ## Discord Server
