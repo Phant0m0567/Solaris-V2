@@ -1,6 +1,5 @@
 <div align="center">
-  <img src="https://socialify.git.ci/phant0m0567/solaris-v2/image?description=1&forks=1&issues=1&language=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2FPhant0m0567%2FSolaris-V2%2Frefs%2Fheads%2Fmain%2Fpublic%2Fassets%2Fimages%2Flogo.png&name=1&owner=1&pattern=Plus&pulls=1&stargazers=1&theme=Dark" alt="solaris-v2" width="960" height="480"
-    />
+<img src="https://socialify.git.ci/phant0m0567/solaris-v2/image?description=1&forks=1&issues=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2FPhant0m0567%2FSolaris-V2%2Frefs%2Fheads%2Fmain%2Fpublic%2Fassets%2Fimages%2Flogo.png&name=1&owner=1&pulls=1&stargazers=1&theme=Auto" alt="solaris-v2" width="960" height="480" />    />
 </div>
 <div align="center">
   <h1>Solaris V2</h1>
