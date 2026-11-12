@@ -38,3 +38,7 @@
 - Clean UI
 - Top Level Cloaking
 - NO ADS
+
+## Credits
+
+[Phant0m0565](https://github.com/phant0m0567) - Owner of Solaris V2
