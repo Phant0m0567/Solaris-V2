@@ -1,3 +1,39 @@
-# Solaris V2
+<div align="center">
+  <img src="https://socialify.git.ci/phant0m0567/solaris-v2/image?description=1&forks=1&issues=1&language=1&logo=https%3A%2F%2Fraw.githubusercontent.com%2FPhant0m0567%2FSolaris-V2%2Frefs%2Fheads%2Fmain%2Fpublic%2Fassets%2Fimages%2Flogo.png&name=1&owner=1&pattern=Plus&pulls=1&stargazers=1&theme=Dark" alt="solaris-v2" width="960" height="480"
+    />
+</div>
+<div align="center">
+  <h1>Solaris V2</h1>
+  Solaris V2 is a modern, fast, clean, customizable web proxy!
+</div>
+<br>
+<div align="center">
+  <h2>How to Deploy Solaris</h2>
+  To get started, press one of the buttons below!
+  <br>
+  <br>
+  <a href="https://vercel.com/new/clone?repository-url=https://github.com/Phant0m0567/solaris-v2"><img height="30px" src="https://img.shields.io/badge/vercel-000000.svg?style=for-the-badge&logo=vercel&logoColor=white"></a>
+  <a href="https://render.com/deploy?repo=https://github.com/phant0m0567/solaris-v2"><img height="30px" src="https://img.shields.io/badge/render-4f65f1.svg?style=for-the-badge&logo=render&logoColor=46e3b7"></a>
+<a href="https://dash.cloudflare.com/?to=/:account/pages/new/provider/github"><img height="30px" src="https://img.shields.io/badge/cloudflare-f38020.svg?style=for-the-badge&logo=cloudflare&logoColor=white"></a>
+<a href="https://railway.com/deploy/t2iuID?referralCode=6CdkQ9&utm_medium=integration&utm_source=template&utm_campaign=generic"><img height="30px" src="https://img.shields.io/badge/Railway-%234f0599.svg?style=for-the-badge&logo=railway&logoColor=white"></a>
+  <a href="https://app.netlify.com/start/deploy?repository=https://github.com/Phant0m0567/solaris-v2"><img height="30px" src="https://img.shields.io/badge/netlify-00C7B7.svg?style=for-the-badge&logo=netlify&logoColor=white"></a>
+  <a href="https://dashboard.heroku.com/new?template=https://github.com/Phant0m0567/solaris-v2"><img height="30px" src="https://img.shields.io/badge/heroku-430098.svg?style=for-the-badge&logo=heroku&logoColor=white"></a>
+  <br>
+  <br>
+  Or
+  <br>
+  <br>
+  <a href="https://www.npmjs.com/package/solaris-v2"><img height="30px" src="https://img.shields.io/badge/npm-CB3837.svg?style=for-the-badge&logo=npm&logoColor=white"></a>
+</div>
 
-cutting edge modern web proxy
+## Discord Server
+
+<a href="https://discord.gg/RQe55a2uhS"><img height="30px" src="https://img.shields.io/badge/discord-join%20our%20server-5865F2.svg?style=for-the-badge&logo=discord&logoColor=white"></a>
+
+## Features
+
+- Scramjet + Ultraviolet
+- Massive Game Library
+- Clean UI
+- Top Level Cloaking
+- NO ADS
