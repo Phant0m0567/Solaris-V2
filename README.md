@@ -11,3 +11,7 @@
 <a href="https://dash.cloudflare.com/?to=/:account/pages/new/provider/github"><img height="30px" src="https://img.shields.io/badge/cloudflare-f38020.svg?style=for-the-badge&logo=cloudflare&logoColor=white"></a>
 <a href="https://railway.com/deploy/t2iuID?referralCode=6CdkQ9&utm_medium=integration&utm_source=template&utm_campaign=generic"><img height="30px" src="https://img.shields.io/badge/Railway-%234f0599.svg?style=for-the-badge&logo=railway&logoColor=white"></a>
 </div>
+
+## Discord Server
+
+<a href="https://discord.gg/RQe55a2uhS"><img height="30px" src="https://img.shields.io/badge/discord-join%20our%20server-5865F2.svg?style=for-the-badge&logo=discord&logoColor=white"></a>
