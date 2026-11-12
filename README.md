@@ -31,6 +31,10 @@
 <a href="https://discord.gg/RQe55a2uhS"><img height="30px" src="https://img.shields.io/badge/discord-join%20our%20server-5865F2.svg?style=for-the-badge&logo=discord&logoColor=white"></a>
 
 ## Features
+:::tip[Online previews]{icon="rocket"}
+Prefer to try Astro in your browser? Visit [astro.new](https://astro.new) to browse our starter templates and spin up a new Astro project without ever leaving your browser.
+:::
+
 
 - Scramjet + Ultraviolet
 - Massive Game Library
