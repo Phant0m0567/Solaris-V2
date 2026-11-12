@@ -3,6 +3,10 @@
     />
 </div>
 <div align="center">
+  <h1>Solaris V2</h1>
+  Solaris V2 is a modern, fast, clean, customizable web proxy!
+</div>
+<div align="center">
   <h2>How to Deploy Solaris</h2>
   To get started, press one of the buttons below!
   <br>
@@ -15,3 +19,11 @@
 ## Discord Server
 
 <a href="https://discord.gg/RQe55a2uhS"><img height="30px" src="https://img.shields.io/badge/discord-join%20our%20server-5865F2.svg?style=for-the-badge&logo=discord&logoColor=white"></a>
+
+## Features
+
+- Scramjet + Ultraviolet
+- Massive Game Library
+- Clean UI
+- Top Level Cloaking
+- NO ADS
