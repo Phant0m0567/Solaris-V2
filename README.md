@@ -24,6 +24,7 @@
   <br>
   <br>
   <a href="https://www.npmjs.com/package/solaris-v2"><img height="30px" src="https://img.shields.io/badge/npm-CB3837.svg?style=for-the-badge&logo=npm&logoColor=white"></a>
+  <a href="https://yarnpkg.com/package/solaris-v2"><img height="30px" src="https://img.shields.io/badge/yarn-2C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white"></a>
 </div>
 
 ## Discord Server
