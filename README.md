@@ -7,7 +7,6 @@
   Solaris V2 is a modern, fast, clean, customizable web proxy!
 </div>
 <br>
-<br?
 <div align="center">
   <h2>How to Deploy Solaris</h2>
   To get started, press one of the buttons below!
