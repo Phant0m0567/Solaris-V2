@@ -15,6 +15,11 @@ const router = createRouter({
       component: () => import('@/pages/Games.vue'),
     },
     {
+      path: '/cloud/',
+      name: 'cloud',
+      component: () => import('@/pages/Cloud.vue'),
+    },
+    {
       path: '/chat',
       name: 'chat',
       component: () => import('@/pages/Chat.vue'),

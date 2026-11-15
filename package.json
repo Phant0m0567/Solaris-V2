@@ -22,6 +22,7 @@
     "src/",
     "public/",
     "vite.config.mjs",
+    "wisp-server.mjs",
     "tsconfig.json",
     "env.d.ts",
     "README.md",
@@ -35,6 +36,7 @@
   },
   "scripts": {
     "dev": "vite --config vite.config.mjs",
+    "wisp": "node wisp-server.mjs",
     "build": "npm run typecheck && vite build --config vite.config.mjs",
     "preview": "vite preview --config vite.config.mjs",
     "typecheck": "vue-tsc --noEmit -p tsconfig.json",
@@ -42,6 +44,7 @@
   },
   "dependencies": {
     "@lucide/vue": "^1.61.0",
+    "@mercuryworkshop/wisp-js": "^0.5.3",
     "@tsparticles/slim": "^3.9.1",
     "@tsparticles/vue3": "^3.0.1",
     "vue": "^3.5.44",

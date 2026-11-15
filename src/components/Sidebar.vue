@@ -49,9 +49,9 @@ import { RouterLink } from 'vue-router';
       <button type="button" class="sg-rail-btn" aria-label="VMs">
         <MonitorCloud />
       </button>
-      <button type="button" class="sg-rail-btn" aria-label="Cloud">
+      <RouterLink to="/cloud/" class="sg-rail-btn" exact-active-class="active" aria-label="Cloud">
         <Cloud />
-      </button>
+      </RouterLink>
 
       <button type="button" class="sg-rail-btn" aria-label="Settings">
         <Settings class="svg" />
