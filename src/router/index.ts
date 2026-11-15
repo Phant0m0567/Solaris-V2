@@ -32,4 +32,11 @@ const router = createRouter({
   ],
 })
 
+router.beforeEach((to, from) => {
+  if (window.crossOriginIsolated && from.name === 'cloud' && to.name !== 'cloud') {
+    window.location.assign(to.fullPath);
+    return false;
+  }
+})
+
 export default router

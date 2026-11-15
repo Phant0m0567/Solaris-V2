@@ -49,8 +49,16 @@ import { RouterLink } from 'vue-router';
       <button type="button" class="sg-rail-btn" aria-label="VMs">
         <MonitorCloud />
       </button>
-      <RouterLink to="/cloud/" class="sg-rail-btn" exact-active-class="active" aria-label="Cloud">
-        <Cloud />
+      <RouterLink to="/cloud/" custom v-slot="{ href, isExactActive }">
+        <a
+          :href="href"
+          class="sg-rail-btn"
+          :class="{ active: isExactActive }"
+          aria-label="Cloud"
+          @click="isExactActive && $event.preventDefault()"
+        >
+          <Cloud />
+        </a>
       </RouterLink>
 
       <button type="button" class="sg-rail-btn" aria-label="Settings">
