@@ -5,7 +5,9 @@ const HOST = "127.0.0.1";
 const PORT = 8012;
 const ALLOWED_ORIGINS = new Set([
   "http://localhost:8011",
-  "http://127.0.0.1:8011"
+  "http://127.0.0.1:8011",
+  "http://localhost:5173",
+  "http://127.0.0.1:5173"
 ]);
 
 wisp.options.port_whitelist = [80, 443];
