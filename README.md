@@ -40,4 +40,7 @@
 
 ## Credits
 
-[Phant0m0565](https://github.com/phant0m0567) - Owner of Solaris V2
+[Phant0m0565](https://github.com/phant0m0567) - Owner
+<br>
+[Jayzcool](https://github.com/chicken-go-crazy) - Developer
+
