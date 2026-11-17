@@ -3,7 +3,6 @@
     "id": "firefox",
     "name": "Firefox",
     "url": "/assets/apps/firefox/index.html",
-    "image": "/assets/apps/firefox/firefox-card.png",
-    "requiresCrossOriginIsolation": true
+    "image": "/assets/apps/firefox/firefox-card.png"
   }
 ]

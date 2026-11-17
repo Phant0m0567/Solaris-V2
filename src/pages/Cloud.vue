@@ -7,7 +7,6 @@ type CloudApp = {
   name: string;
   url: string;
   image: string;
-  requiresCrossOriginIsolation: boolean;
 };
 
 const apps = ref<CloudApp[]>([]);
@@ -17,17 +16,10 @@ const selectedApp = ref<CloudApp | null>(null);
 const iframeRef = ref<HTMLIFrameElement | null>(null);
 const iframeKey = ref(0);
 const search = ref('');
-const isCrossOriginIsolated = window.crossOriginIsolated;
 const filteredApps = computed(() => {
   const query = search.value.trim().toLowerCase();
   return apps.value.filter((app) => app.name.toLowerCase().includes(query));
 });
-const launchableApps = computed(() =>
-  filteredApps.value.filter((app) => !app.requiresCrossOriginIsolation || isCrossOriginIsolated),
-);
-const hasUnavailableApps = computed(() =>
-  filteredApps.value.some((app) => app.requiresCrossOriginIsolation && !isCrossOriginIsolated),
-);
 
 function isCloudApp(value: unknown): value is CloudApp {
   return (
@@ -40,9 +32,7 @@ function isCloudApp(value: unknown): value is CloudApp {
     'url' in value &&
     typeof value.url === 'string' &&
     'image' in value &&
-    typeof value.image === 'string' &&
-    'requiresCrossOriginIsolation' in value &&
-    typeof value.requiresCrossOriginIsolation === 'boolean'
+    typeof value.image === 'string'
   );
 }
 
@@ -76,7 +66,6 @@ onMounted(() => {
 });
 
 function launchApp(app: CloudApp) {
-  if (app.requiresCrossOriginIsolation && !isCrossOriginIsolated) return;
   selectedApp.value = app;
 }
 
@@ -96,7 +85,7 @@ async function enterFullscreen() {
 }
 
 function openRandomApp() {
-  const availableApps = launchableApps.value;
+  const availableApps = filteredApps.value;
   if (availableApps.length === 0) return;
 
   const app = availableApps[Math.floor(Math.random() * availableApps.length)];
@@ -120,7 +109,7 @@ function openRandomApp() {
         <button
           class="lumin-btn"
           type="button"
-          :disabled="isLoading || launchableApps.length === 0"
+          :disabled="isLoading || filteredApps.length === 0"
           @click="openRandomApp"
         >
           Random
@@ -132,7 +121,6 @@ function openRandomApp() {
           :key="app.id"
           class="lumin-card"
           type="button"
-          :disabled="app.requiresCrossOriginIsolation && !isCrossOriginIsolated"
           :aria-label="`Open ${app.name}`"
           @click="launchApp(app)"
         >
@@ -165,7 +153,7 @@ function openRandomApp() {
           class="cloudFrame"
           :src="selectedApp.url"
           :title="selectedApp.name"
-          allow="cross-origin-isolated; fullscreen; clipboard-read; clipboard-write"
+          allow="fullscreen; clipboard-read; clipboard-write"
         ></iframe>
         <div class="cloudAppTab">
           <div class="cloudAppInfo">

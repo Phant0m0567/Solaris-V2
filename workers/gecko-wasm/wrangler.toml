@@ -1,7 +1,0 @@
-name = "solaris-gecko-wasm"
-main = "index.mjs"
-compatibility_date = "2026-11-16"
-workers_dev = true
-
-[vars]
-GECKO_WASM_URL = "https://github.com/Phant0m0567/Solaris-V2/releases/download/gecko-wasm-v1/gecko.wasm"
