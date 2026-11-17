@@ -126,15 +126,7 @@ function openRandomApp() {
           Random
         </button>
       </div>
-
-      <p v-if="hasUnavailableApps" class="cloudStatus" role="status">
-        Firefox requires the Cloud page to be cross-origin isolated. Configure COOP and COEP headers on
-        <code>/cloud/</code>.
-      </p>
-      <p v-if="isLoading" class="cloudStatus" role="status">Loading cloud apps...</p>
-      <p v-else-if="loadError" class="cloudStatus" role="alert">{{ loadError }}</p>
-
-      <div v-else class="cloudGrid" aria-label="Cloud apps">
+      <div v-if="!isLoading && !loadError" class="cloudGrid" aria-label="Cloud apps">
         <button
           v-for="app in filteredApps"
           :key="app.id"
